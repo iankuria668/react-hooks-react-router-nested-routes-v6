@@ -16,7 +16,6 @@ function UserProfile() {
   if(!user.name){
     return <h1>Loading...</h1>;
   };
-
   return(  
       <aside>
         <h1>{user.name}</h1>
@@ -24,4 +23,4 @@ function UserProfile() {
   );
 };
 
-export default UserProfile;
+export default UserProfile:
